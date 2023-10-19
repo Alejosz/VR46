@@ -1,0 +1,200 @@
+body{
+    background-image: url(/Img/VR46.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background-color: transparent;
+    background: rgba(37, 37, 37, 0.901);
+    color: yellow;
+    padding: 10px 30px;
+    text-decoration: none;   
+}
+
+.nav-enlace:hover{
+    background-color: black;
+}
+
+nav{
+    background-color: transparent;
+    background: rgba(37, 37, 37, 0.901);
+    padding: 10px;
+    display: flex;
+}
+
+/*  */
+.CajaProductos{
+width: 1200px;
+height: 410px;
+background: transparent;
+top: 25%;
+left: 6%;
+position: absolute;
+box-sizing: border-box;
+}
+
+.imgBuso{
+    width: 300px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.imgCamisa{
+    width: 300px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.imgCamisa2{
+    width: 300px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.imgGorra{
+    width: 300px;
+    height: 480px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: -785px;
+}
+
+.imgChaquetaMujer{
+    width: 300px;
+    height: 480px;
+    margin-bottom: 50px;
+    margin-top: -506px;
+    margin-left: -390px;
+}
+
+.imgCamisaMujer{
+    width: 300px;
+    height: 483px;
+    margin-bottom: 65px;
+    margin-top: -1000px;
+    margin-left: -2,5px;
+}
+
+.BotonBuso{
+    text-decoration: none;
+    background-color: yellow;
+    color: gray;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: 0.1rem solid white;
+    
+}
+
+.BotonBuso:hover{
+    background-color: black;
+}
+
+.BotonCamisa{
+    text-decoration: none;
+    background-color: yellow;
+    color: gray;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: 0.1rem solid white;
+}
+
+.BotonCamisa:hover{
+    background-color: black;
+}
+
+.BotonCamisa2{
+    text-decoration: none;
+    background-color: yellow;
+    color: gray;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: 0.1rem solid white;
+}
+
+.BotonCamisa2:hover{
+    background-color: black;
+}
+
+.BotonGorra{
+    text-decoration: none;
+    background-color: yellow;
+    color: gray;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: 0.1rem solid white;
+    position: relative;
+    left: -300px;
+    top:20px ;
+}
+
+.BotonGorra:hover{
+    background-color: black;
+}
+
+.BotonChaquetaMujer{
+    text-decoration: none;
+    background-color: yellow;
+    color: gray;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: 0.1rem solid white;
+    position: relative;
+    left: -300px;
+    top: -10px;
+
+}
+
+.BotonChaquetaMujer:hover{
+    background-color: black;
+}
+
+.BotonCamisaMujer{
+    text-decoration: none;
+    background-color: yellow;
+    color: gray;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 10px 80px;
+    border: 0.1rem solid white;
+    position: relative;
+    left: 10px;
+    top: -50px;
+
+}
+
+.BotonCamisaMujer:hover{
+    background-color: black;
+}
+
+html,
+body {
+  height: 115%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: rgba(44, 44, 44, 0.825);
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.col-md-6{
+    color: yellow;
+}

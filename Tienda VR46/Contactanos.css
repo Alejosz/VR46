@@ -1,0 +1,101 @@
+body{
+    background-image: url(/Img/VR46.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background-color:  transparent;
+    background: rgba(37, 37, 37, 0.901);
+    color: yellow;
+    padding: 10px 30px;
+    text-decoration: none;   
+}
+
+.nav-enlace:hover{
+    background-color: black;
+}
+
+nav{
+    background-color: transparent;
+    background: rgba(37, 37, 37, 0.901);
+    padding: 10px;
+    display: flex;
+}
+
+.cajaContactanos{
+    width: 1200px;
+    height: 410px;
+    background: transparent;
+    top: 25%;
+    left: 6%;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cajaContactanos h1{
+    margin: 80px;
+    padding: 0 0 20;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    border: 0.1rem solid black;
+}
+
+.cajaContactanos input{
+    width: 35%;
+    height: 34px;
+    color: gray;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    border: 0.1rem solid black;
+}
+
+.cajaContactanos input:hover{
+    color: black;
+}
+
+.BotonCont{
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 20%;
+    padding: 10px 22px;
+    border: 0.1rem solid black;
+    color: black;
+}
+
+.BotonCont:hover{
+    color: gray;
+    background-color: black;
+    border: 0.1rem solid gray;
+}
+
+html,
+body {
+  height: 115%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: rgba(44, 44, 44, 0.825);
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.col-md-6{
+    color: yellow;
+}

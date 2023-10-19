@@ -1,0 +1,75 @@
+body{
+    background-image: url(/Img/VR46.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background-color:  transparent;
+    background: rgba(37, 37, 37, 0.901);
+    color: yellow;
+    padding: 10px 30px;
+    text-decoration: none;   
+}
+
+.nav-enlace:hover{
+    background-color: black;
+}
+
+nav{
+    background-color: transparent;
+    background: rgba(37, 37, 37, 0.901);
+    padding: 10px;
+    display: flex;
+}
+
+.cajaNosotros{
+    width: 1200px;
+    height: 410px;
+    background: transparent;
+    background: rgba(37, 37, 37, 0.901);
+    top: 25%;
+    left: 6%;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cajaNosotros h1{
+    margin: 80px;
+    padding: 0 0 20;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+}
+
+.cajaNosotros b{
+    color: white;
+}
+
+html,
+body {
+  height: 115%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: rgba(44, 44, 44, 0.825);
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.col-md-6{
+    color: yellow;
+}
